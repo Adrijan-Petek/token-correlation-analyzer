@@ -1,0 +1,19 @@
+name: Daily Token Correlation
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+jobs:
+  correlate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm run correlate
+      - uses: actions/upload-artifact@v4
+        with:
+          name: correlation-reports
+          path: reports/

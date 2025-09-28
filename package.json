@@ -1,0 +1,12 @@
+{
+  "name": "token-correlation-analyzer",
+  "version": "0.1.0",
+  "main": "src/correlate.js",
+  "scripts": {
+    "correlate": "node src/correlate.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.0.0"
+  }
+}
