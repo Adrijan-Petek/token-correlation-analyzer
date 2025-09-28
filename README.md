@@ -115,11 +115,4 @@ vercel --prod
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Screenshots
 
-### Web Interface
-![Web Interface Screenshot](https://via.placeholder.com/600x300?text=Web+Interface+Screenshot)
-
-### Correlation Matrix Display
-![Matrix Display](https://via.placeholder.com/600x300?text=Matrix+Display)</content>
-<parameter name="filePath">c:\Users\Mobb\Downloads\token-correlation-analyzer\README.md
